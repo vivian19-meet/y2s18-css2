@@ -3,9 +3,11 @@ body {
 }
 
 .header {
+    border: 1px solid #252C2F;
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    padding:10px;
 }
 
 .container {
@@ -14,16 +16,27 @@ body {
 }
 
 .sidebar {
-    width: 180px;
+    width: 100px;
     background: #ff6677;
     position: absolute;
     top: 0;
     height: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main-content {
+    border: 5px solid blue;
     background: #ffffcc;
     position: absolute;
     top: 0;
     left: 200px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+`   margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }

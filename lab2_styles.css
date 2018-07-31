@@ -12,7 +12,18 @@ p {
     color: green;
     font-size: 24pt;
 }
-
+#this_is_important:hover {
+	color: #FFD275;
+	font-size: 40pt;
+}
+.less_important:hover {
+	color: blue
+}
 a {
     color:red;
+
+}
+a:hover{
+	color: blue;
+	background-color: #C5FFFD;
 }
